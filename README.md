@@ -7,10 +7,11 @@
 
 A community-built Dogecoin and Doginals companion for **Hermes Agent**.
 
-The agent prepares an exact request. You review and approve it on your private paired phone. **SpookyDoge keeps the Dogecoin keys and handles signing and broadcast.**
+**Your keys. Your coins. Your Doginals.** Signing and broadcast happen in [Spooky Doge](https://spooksociety.github.io/SpookyDoge/), a separate, non-custodial wallet from the Spook Society. Your private keys stay in Spooky Doge Wallet on your device. Nous Doge never receives them; it passes your approved send request to Spooky for wallet confirmation, signing and broadcast.
 
 ## The boundary
 
+- **Non-custodial:** keys stay in Spooky Doge Wallet on your device, never with the agent or this plugin.
 - The agent can request a send; it cannot approve itself.
 - Phone approvals are exact, expiring and single-use.
 - Funding-wallet setup is separate from sending DOGE.
@@ -19,8 +20,6 @@ The agent prepares an exact request. You review and approve it on your private p
 
 ## Status
 
-**Development preview — not a public wallet release.**
-
-This initial repository contains the project introduction and 512px logo only. Plugin source and installation instructions are held back pending independent Claude review, exact-package verification and the remaining release checks. Do not treat this page as an audited release or permission to fund a test install.
+Still in development. Code and installation instructions coming soon.
 
 Independent community project for the Hermes community; not an official Nous Research release.
